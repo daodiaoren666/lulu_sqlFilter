@@ -7,7 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @Slf4j
-public class SqlFilterApplication {
+public class
+SqlFilterApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(SqlFilterApplication.class, args);
