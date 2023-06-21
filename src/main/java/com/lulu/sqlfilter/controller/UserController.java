@@ -8,10 +8,9 @@ import com.lulu.sqlfilter.exception.BusinessException;
 import com.lulu.sqlfilter.model.domain.User;
 import com.lulu.sqlfilter.model.domain.request.SearchUserRequest;
 import com.lulu.sqlfilter.service.UserService;
-import com.sun.tools.javac.util.List;
+import java.util.List;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-
 import javax.annotation.Resource;
 
 @RequestMapping("/user")
